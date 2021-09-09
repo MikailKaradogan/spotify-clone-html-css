@@ -1,0 +1,201 @@
+@import url('./grid.css');
+@import url('./responsive.css');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+#navbar {
+    width: 100%;
+    height: 80px;
+    background-color: black;
+    padding: 20px 0px;
+}
+.logo img {
+    width: auto;
+    height: 40px;
+}
+#navbar nav {
+    width: auto;
+    height: auto;
+    background-color: transparent;
+}
+#navbar nav ul {
+    width: auto;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+#navbar nav ul li {
+    list-style-type: none;
+}
+#navbar nav ul li a{
+    padding: 28px 17px;
+    color: #fff;
+    text-transform: capitalize;
+    font-weight: 700;
+    font-size: 16px;
+    font-family: Circular,spotify-circular,Helvetica,Arial,sans-serif;
+}
+#navbar nav ul li:nth-child(3){
+    border-right: 1px solid #fff;
+    margin: 0px 5px;
+}
+#navbar nav ul li:nth-child(4) a,
+#navbar nav ul li:nth-child(5) a{
+    color: #d9dadc;
+}
+#navbar nav ul li a:hover{
+    color: #1ed760;
+}
+
+/* head-slide  */
+
+#head-slide{
+    width: 100%;
+    padding: 70px 0px;
+    background-color: rgb(255, 205, 210);
+}
+.header-silde-content p {
+    font-size: 14px;
+    margin: 16px 0px 32px;
+    font-family: spotify-circular, Circular, Helvetica, Arial, sans-serif;
+    font-weight: 600;
+}
+.header-silde-content h1 {
+    font-size: 60px;
+    line-height: 1.2;
+    font-weight: 900;
+    font-family: spotify-circular, Helvetica, Arial, sans-serif;
+}
+.header-silde-content h2 {
+    margin: 30px 0px;
+    font-size: 24px;
+    font-family: spotify-circular, Helvetica, Arial, sans-serif;
+    font-weight: 400;
+}
+.header-silde-content a{
+    margin: 35px 0px 0px;
+    background-color: black;
+    color: #d9dadc;
+    text-transform: uppercase;
+    padding: 17px 48px;
+    border-radius: 500px;
+    font-family: spotify-circular, Helvetica, Arial, sans-serif;
+}
+.header-slide-photo img {
+    width: 100%;
+    height: auto;
+}
+
+/* spotify-free */
+
+#spotify-free {
+    width: 100%;
+    min-height: 600px;
+    background-color: rgb(41, 65, 171);
+    padding: 80px 0px;
+    background-position: right center;
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+}
+
+/*  footer  */
+
+footer {
+    padding: 80px 0px 60px 0px;
+    background-color: black;
+}
+.footer-nav ul li {
+    list-style-type: none;
+    color: #919496;
+    height: auto;
+    margin: 25px 0px;
+    font-family: Circular,spotify-circular,Helvetica,Arial,sans-serif;
+}
+.footer-nav ul li a{
+    color: #fff;
+    padding: 3px 0 15px;
+    font-family: Circular,spotify-circular,Helvetica,Arial,sans-serif;
+}
+.footer-nav ul li:nth-child(1){
+    font-size: 12px;
+}
+.social ul{
+    display: flex;
+}
+.social ul li{
+    list-style-type: none;
+    margin-right: 15px;
+}
+.social ul li a {
+    width: 54px;
+    height: 54px;
+    background-color: #222342;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+.social ul li a span i {
+    font-size: 25px;
+}
+.footer-nav ul li a:hover,
+.social ul li a:hover {
+    color: #1ed760;
+}
+.footer-bottom-world {
+    display: flex; 
+    justify-content: flex-end; 
+    align-items: center;
+}
+.footer-bottom-world a {
+    color: #919496;
+    font-size: 12px;
+}
+.footer-bottom ul {
+    display: flex;
+    flex-wrap: wrap;
+}
+.footer-bottom ul li {
+    list-style-type: none;
+    margin-right: 24px;
+}
+.footer-bottom ul li a{
+    padding: 16px 0px;
+    color: #919496;
+    font-size: 14px;
+}
+.footer-bottom ul li a:hover {
+    color: #1ed760;
+}
+.footer-bottom-world a:hover span {
+    color: #1ed760;
+}
+/* spotify-btn */
+.spotify-btn{
+    margin: 35px 0px 35px 0px; 
+    height: 80px; 
+    align-items: center; 
+    display: flex;
+}
+.spotify-btn a {
+    width: 295px;
+    height: 48px;
+}
+#spotify-free .spotify-btn a {
+    color: rgb(41, 65, 171); 
+    background-color: #1ed760;
+}
+.toggle-on {
+    background-color: transparent;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 22px;
+}

@@ -1,0 +1,95 @@
+@media (min-width: 0px) {
+  .header-silde-content h1 {
+    font-size: 32px !important;
+  }
+  .toggle-off {
+    display: none !important;
+  }
+  #navbar {
+    height: 50px !important;
+    padding: 5px 0px !important;
+    display: flex;
+    align-items: center;
+  }
+  .logo a img {
+    height: 27px;
+  }
+  .social a {
+    background-color: #222326 !important;
+  }
+  #spotify-free .header-silde-content,
+  #spotify-free .header-silde-content .spotify-btn {
+    text-align: center;
+    justify-content: center;
+  }
+  .header-silde-content h2 {
+    font-size: 18px !important;
+  }
+  #spotify-free {
+    background-image: url("https://content-tooling.spotifycdn.com/images/1d2242b4-f071-4244-a276-3bcdc58e77cf_lie_circles-tablet.svg") !important;
+    background-size: auto 177% !important;
+    background-position: 65% 55% !important;
+    text-align: center;
+    min-width: 500px !important;
+  }
+}
+@media (min-width: 768px) {
+  .header-silde-content p {
+    text-align: center;
+    font-size: 10px;
+    font-weight: 600;
+  }
+  #spotify-free {
+    background-image: url("https://content-tooling.spotifycdn.com/images/1d2242b4-f071-4244-a276-3bcdc58e77cf_lie_circles-tablet.svg");
+    background-size: contain;
+    background-position: center center;
+    text-align: center;
+  }
+  #spotify-free a {
+    text-align: center;
+  }
+  #spotify-free .spotify-btn {
+    justify-content: center;
+  }
+  .toggle-off {
+    display: flex !important;
+  }
+  .toggle-on {
+    display: none;
+  }
+  #navbar {
+    height: 80px !important;
+    padding: 20px 0px !important;
+  }
+  .logo a img {
+    height: 40px;
+  }
+  .header-silde-content h1 {
+    font-size: 55px !important;
+  }
+  #spotify-free .header-silde-content,
+  #spotify-free .header-silde-content .spotify-btn {
+    text-align: start;
+    justify-content: start;
+  }
+  .header-silde-content h2 {
+    font-size: 24px !important;
+  }
+}
+@media (min-width: 992px) {
+  .header-silde-content p {
+    text-align: start;
+    font-size: 10px;
+    font-weight: 600;
+  }
+  #spotify-free {
+    background-image: url("https://content-tooling.spotifycdn.com/images/1d2242b4-f071-4244-a276-3bcdc58e77cf_lie_circles-tablet.svg");
+    background-size: contain;
+  }
+}
+@media (min-width: 1200px) {
+  #spotify-free {
+    background-image: url("https://content-tooling.spotifycdn.com/images/b236bf87-bfd5-4bcb-b51a-77881073039c_lie_circles.svg");
+    background-size: contain;
+  }
+}
